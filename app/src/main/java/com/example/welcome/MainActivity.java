@@ -6,6 +6,7 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -62,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void CheckLocation(View view){
         Intent intent = new Intent(MainActivity.this,Water_level_result.class);
+        startActivity(intent);
+    }
+
+    public void OnClickSettingsButton(MenuItem menu){
+        Intent intent = new Intent(MainActivity.this,SettingsActivity.class);
         startActivity(intent);
     }
 
