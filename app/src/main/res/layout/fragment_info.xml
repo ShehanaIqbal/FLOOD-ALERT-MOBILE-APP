@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:id="@+id/steps_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/steps_title"
+            android:textAlignment="center"
+            android:textColor="#030000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/step_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/steps_title"
+            android:layout_gravity="start"
+            android:background="#85FDF7F7"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/step_1"
+            android:textAlignment="viewStart"
+            android:textColor="#F0070000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/step_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step_1"
+            android:layout_gravity="start"
+            android:background="#85FDF7F7"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/step_2"
+            android:textAlignment="viewStart"
+            android:textColor="#E90E0101"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/step_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step_2"
+            android:layout_gravity="start"
+            android:background="#85FDF7F7"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/step_3"
+            android:textAlignment="viewStart"
+            android:textColor="#E1020000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/step_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step_3"
+            android:layout_gravity="start"
+            android:background="#85FDF7F7"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp"
+            android:text="@string/step_4"
+            android:textAlignment="viewStart"
+            android:textColor="#E1090000"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

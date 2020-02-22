@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Flood Alerter Mobile App</string>
+    <string name="app_name">Flood Alerting Mobile App</string>
     <string name="powered_by">Powered By</string>
     <string name="welcome">WELCOME</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -10,9 +10,10 @@
     <string name="action_settings">Settings</string>
     <string name="home_constent">Flood Alerter is here</string>
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_gallery">Instructions</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+
+    <!-- settings -->
     <string name="title_activity_settings">Settings</string>
 
     <!-- Preference Titles -->
@@ -29,4 +30,15 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+    <!--help desk -->
+    <string name="steps_title">How to make sure you are safe</string>
+    <string name="step_1">1. Make sure you have turned on GPS in your mobile.</string>
+    <string name="step_2">2. Visit the home page.</string>
+    <string name="step_3">3. Click on "Check My Location" button.</string>
+    <string name="step_4">4. Predicted water levels for your location are on your way.</string>
+
+    <!-- Check button -->
+    <string name="check_button">Check My Location</string>
 </resources>

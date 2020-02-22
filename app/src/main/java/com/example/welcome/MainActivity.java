@@ -1,10 +1,12 @@
 package com.example.welcome;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -57,6 +59,16 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    public void CheckLocation(View view){
+        Intent intent = new Intent(MainActivity.this,Water_level_result.class);
+        startActivity(intent);
+    }
+
+    public void OnClickSettingsButton(MenuItem menu){
+        Intent intent = new Intent(MainActivity.this,SettingsActivity.class);
+        startActivity(intent);
     }
 
     @Override
