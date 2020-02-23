@@ -31,10 +31,11 @@
 
         <TextView
             android:id="@+id/step_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="359dp"
+            android:layout_height="62dp"
             android:layout_below="@id/steps_title"
             android:layout_gravity="start"
+            android:layout_marginTop="29dp"
             android:background="#85FDF7F7"
             android:paddingTop="20dp"
             android:paddingBottom="10dp"
@@ -45,7 +46,7 @@
 
         <TextView
             android:id="@+id/step_2"
-            android:layout_width="match_parent"
+            android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/step_1"
             android:layout_gravity="start"
@@ -60,7 +61,7 @@
 
         <TextView
             android:id="@+id/step_3"
-            android:layout_width="match_parent"
+            android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/step_2"
             android:layout_gravity="start"
@@ -74,7 +75,7 @@
 
         <TextView
             android:id="@+id/step_4"
-            android:layout_width="match_parent"
+            android:layout_width="359dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/step_3"
             android:layout_gravity="start"
